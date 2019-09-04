@@ -1,0 +1,23 @@
+{
+  "name": "bluefrg/parsepdodsn",
+  "description": "A class for parsing PHP's PDO strings.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mike Frank",
+      "email": "mike@bluefrog.ca",
+      "homepage": "https://bluefrog.ca/"
+    }
+  ],
+  "autoload": {
+    "psr-4" : {
+      "Bluefrg\\ParsePdoDsn\\" : "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
